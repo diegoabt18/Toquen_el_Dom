@@ -18,5 +18,15 @@
 
 
 /* CSS JOCELYN*/
+*{
+  box-sizing:100%;;
+width: 100%;
+}
+.principal{
+  width: 100%;
+  min-height: 100vh;
+  opacity: 15%;
+  border
 
+}
 /* FIN CSS JOCELYN*/
