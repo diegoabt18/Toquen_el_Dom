@@ -1,9 +1,20 @@
 :root {
   --main-color-1: #F7F6F4;
-  --main-color-1: #6B7464;
-  --main-color-1: #D79B31;
-  --main-color-1: #9F4248;
-  --main-color-1: #201F22;
+  --main-color-2: #6B7464;
+  --main-color-3: #D79B31;
+  --main-color-4: #9F4248;
+  --main-color-5: #201F22;
+  --main-font-1: "Rum Raisin";
+  --main-font-2: "Text Me One";
+  --main-font-3: "Sansita";
+  --main-font-4: "Mulish";
+}
+
+
+.Header{
+  font-family: var(--main-font-1);
+  background-color: var(--main-color-3);
+  color: var(--main-color-5);
 }
 
 /* CSS DIEGO*/
