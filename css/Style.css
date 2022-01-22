@@ -11,21 +11,100 @@
 }
 
 
-/* CSS DIEGO*/
+*{
+    box-sizing: border-box;
+    border-style: solid;
+    margin: 0px;
+}
 
+/* CSS DIEGO*/
+.Header{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color-3);
+  
+  align-items: center;
+  padding: 0px 75px;
+  flex-wrap: wrap;
+}
+
+.Header div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Header div spam {
+  font-family: var(--main-font-1);
+  font-size: 35px;
+}
+
+.Header div img{
+  width: auto;
+  height: 50px;
+  
+  /*Fondo transparente*/
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+
+.Header .Navbar ul{
+  display: flex;
+  height: 70px;
+}
+
+.Header .Navbar ul li{
+  display: flex;
+  list-style: none; /* Quitar el stilo a las listas*/
+  
+}
+
+.Header .Navbar ul li {
+  text-align: center;
+  align-items: center;
+}
+
+.Header .Navbar ul li:hover{
+  background-color: var(--main-color-2);
+}
+
+.Header .Navbar ul li a{
+    font-family: var(--main-font-2);
+    color: var(--main-color-1);
+    text-decoration: none;
+    font-size: 21px;
+    width: 100px;
+}
+
+
+
+
+
+/*BOrrar*/
+
+.inicio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url( "/img/fondo_principal.jpg");
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode:lighten;  /*Fuciona el color de fondo y la imagen de fondo*/
+  width: 100%;
+  background-size: cover;/*AJusta el tamaño de la imagen*/
+  height: 100vh;
+  
+}
+.inicio .contenedor{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  
+}
 /* FIN CSS DIEGO*/
 
 
 
 /* CSS JOCELYN*/
-*{
-  box-sizing:100%;;
-width: 100%;
-}
-.principal{
-  width: 100%;
-  min-height: 100vh;
-  opacity: 15%;
-  
-}
+
 /* FIN CSS JOCELYN*/
