@@ -21,7 +21,6 @@
 *{
   box-sizing:border-box;
   margin: 0px;
-  border-style: solid ; 
 }
 
 .us{
@@ -58,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 150px;
+  gap: 30px;
   width: 90%;
   height: 75%;
 }
@@ -67,7 +66,7 @@
   text-align: center;
   font-family: var(--main-font-3);
   color: var(--main-color-1);
-  font-size: 2.3vw; 
+  font-size: 3vw; 
 }
 
 .parte2 p{
@@ -78,9 +77,12 @@
   align-items: center;
   font-size: 2.0vw;
 }
-.parte2 .anim{
+.anim{
   display: flex;
-  gap: 150px;
+  gap: 20px;
+  }
+.anim img{
+  width: 5vw;
 }
 
 .parte2 .anim img{
@@ -88,25 +90,20 @@
 }
 
 .foot{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--main-color-2);
   height: 100px;
-  padding: 0px 60px;
-}
-
-.foot h1{
-  font-family: var(--main-font-2);
-  color: var(--main-color-1);
-}
-.foot .icons{
   display: flex;
+  justify-content:space-between;
+  padding: 0px 80px;
   align-items: center;
-  
+  font-size: 1.5vw;
+  background-color: var(--main-color-2);
+  color: var(--main-color-1);
+  font-family: var(--main-font-2);
 }
-
-.foot .icons img{
-  width:  3.3vw;
+.icons{
+  display: flex;
+  gap: 20px;
+}
+.icons img{
+  width: 3vw;
 }
