@@ -21,7 +21,7 @@
 *{
   box-sizing:border-box;
   margin: 0px;
-  border-style: solid ; 
+  /* border-style: solid ;  */
 }
 
 .us{
@@ -79,13 +79,14 @@
   font-size: 2.0vw;
 }
 .anim{
-  width: 8px;
-  height: 8vh;
   display: flex;
   gap: 20px;
-  margin-left: 150px;
-  
+ 
+  }
+.anim img{
+  width: 5vw;
 
+  
 }
 .foot{
   width: 100%;
@@ -94,24 +95,16 @@
   font-family: var(--main-font-2);
   display: flex;
   justify-content:space-between;
-  padding: 0px 40px;
+  padding: 0px 80px;
   align-items: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: var(--main-color-1);
 }
+.icons{
+  display: flex;
+  gap: 20px;
+
+}
 .icons img{
-  width: 13%;
-  /* height: 10vh; */
-  /* justify-content:center; */
-  /* align-items: center; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-content: center; */
-/* position: relative; */
-padding: 20px 10px;
-gap: 20px;
-
-
-
-
-  }
+  width: 4vw;
+    }
