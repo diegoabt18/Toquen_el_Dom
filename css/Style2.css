@@ -1,0 +1,148 @@
+/* comentario jocelyn */
+:root {
+    --main-color-1: #F7F6F4;
+    --main-color-2: #6B7464;
+    --main-color-3: #D79B31;
+    --main-color-4: #9F4248;
+    --main-color-5: #201F22;
+    --main-font-1: "Rum Raisin";
+    --main-font-2: "Text Me One";
+    --main-font-3: "Sansita";
+    --main-font-4: "Mulish";
+    }
+
+*{
+    border: solid;
+}
+.complete{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bloque{
+    background-color: black;
+    /* height: 60%; */
+    /* width: 70%; */
+}
+.all{
+        background-color: #fff;
+    
+}
+.piano{
+    /* border: solid; */
+    display: flex;
+  justify-content: space-between;
+  top:0px;
+  align-items: center;
+  /* padding: 0px 75px; */
+  }
+
+.piano div spam{
+    font-family:var(--main-font-1);
+    color: #201F22;
+    font-size: 23px;
+
+}
+
+.piano .barra ul{
+    display: flex;
+    gap: 50px;
+    
+}
+.piano .barra ul li{
+    display: flex;
+    list-style: none;
+      
+    }
+.piano .barra ul li:hover{
+        background-color: var(--main-color-4);
+
+}
+
+.piano .barra ul li a{
+    color: #201F22;
+}
+
+.container{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+background-color: #fff;
+    }
+    
+.container .welcome{
+    display:grid;
+    justify-content: center;
+    /* width: 100%; */
+    /* height: 100vh; */
+    border: solid;
+    align-content: center;
+    align-items: center;
+     
+}
+.container .welcome h2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center; 
+    font-family: var(--main-font-3); 
+    
+}
+
+.container .welcome p{
+    display: flex;
+    font-family: var(--main-font-4);
+        align-items: center;
+        font-family: var(--main-font-4);
+        align-content: center;
+        text-align: center;
+        font-size: 1.9vw;
+
+} 
+.container .welcome button{
+    /* color:var(--main-color-1);
+    background: var(--main-color-4);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 80px;
+    border-radius: 30px;
+    border-style: none;
+    margin-bottom: 20px;
+    margin-right: 400px; */
+
+}
+.boton{
+    /* display: flex; */
+    width:190px;
+    height: 50px;
+    align-content: center;
+    background: var(--main-color-4);
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    color: var(--main-color-1);
+    font-family: var(--main-font-4);
+    font-size: 1.4vw;
+    border-style: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 230px;
+    
+
+   
+
+
+}
+.instru img{
+    border: solid;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -2; */
+
+}
