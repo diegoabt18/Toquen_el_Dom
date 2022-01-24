@@ -76,30 +76,6 @@
     width: 100px;
 }
 
-
-
-
-
-/*BOrrar*/
-
-.inicio{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-image: url( "/img/fondo_principal.jpg");
-  background-color: rgba(255, 255, 255, 0.3);
-  background-blend-mode:lighten;  /*Fuciona el color de fondo y la imagen de fondo*/
-  width: 100%;
-  background-size: cover;/*AJusta el tamaño de la imagen*/
-  height: 100vh;
-  
-}
-.inicio .contenedor{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 80%;
-  
-}
 /* FIN CSS DIEGO*/
 
 
