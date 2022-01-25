@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #b30e79;
+    height: 100%;
+}
+
+.contenedor {
+    display: flex;
+    background-color: green;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#piano{
+    background-color: yellow;
+    display: flex;
+    position: relative;
+}
+
+.white{
+    background-color: white;
+    height: 120px;
+    width: 40px;
+    border: 1.5px solid black;
+}
+
+.black{
+    background-color: black;
+    height: 80px;
+    border: 1.5px solid black;
+    position: absolute;
+}
