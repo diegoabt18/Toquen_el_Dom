@@ -12,137 +12,149 @@
     }
 
 *{
-    border: solid;
+   /* border: solid;*/
+    box-sizing: border-box;
+    margin: 0px;
 }
-.complete{
-    height: 100vh;
-    background-color: #fff;
+.inicio_instrumento{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    height: 100vh;
+    background-color: var(--main-color-1);
 }
 .bloque{
-    background-color: black;
-    /* height: 60%; */
-    /* width: 70%; */
-}
-.all{
-        background-color: #fff;
-    
-}
-.piano{
-    /* border: solid; */
     display: flex;
-  justify-content: space-between;
-  top:0px;
-  align-items: center;
-  /* padding: 0px 75px; */
-  }
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color-5);
+    height: 80%;
+    width: 80%;
+}
 
-.piano div spam{
+.subloque{
+    align-items: center;
+    background-color: var(--main-color-1);
+    height: 91%;
+}
+
+
+
+.seccion1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--main-color-1);
+}
+
+.seccion1 div spam{
+    position: relative;
     font-family:var(--main-font-1);
-    color: #201F22;
+    color: var(--main-color-1);
     font-size: 23px;
-
+    background-color: var(--main-color-2);
+    left: 20%;
+    top: -5px;
+    padding: 6px 20px;
 }
 
-.piano .barra ul{
-    display: flex;
-    gap: 50px;
-    
-}
-.piano .barra ul li{
+.seccion1 .barra ul{
     display: flex;
     list-style: none;
-      
-    }
-.piano .barra ul li:hover{
-        background-color: var(--main-color-4);
-
+    padding: 0px;
 }
 
-.piano .barra ul li a{
-    color: #201F22;
-}
-
-.container{
-   display: grid;
-    grid-template-columns: 1fr 1fr;
-background-color: #fff;
-    }
-    
-.container .welcome{
-    display:grid;
+.seccion1 a{
+    display: flex;
+    text-decoration: none;
+    width: 100px;
     justify-content: center;
-    /* width: 100%; */
-    /* height: 100vh; */
-    border: solid;
-    align-content: center;
     align-items: center;
-     
-}
-.container .welcome h2{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    text-align: center; 
-    font-family: var(--main-font-3); 
-    
+    font-family: var(--main-font-2);
+    color: var(--main-color-5);
+    font-size: 1.2rem;
 }
 
-.container .welcome p{
-    display: flex;
-    font-family: var(--main-font-4);
-        align-items: center;
-        font-family: var(--main-font-4);
-        align-content: center;
-        text-align: center;
-        font-size: 1.9vw;
-
-} 
-.container .welcome button{
-    /* color:var(--main-color-1);
-    background: var(--main-color-4);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    width: 80px;
-    border-radius: 30px;
-    border-style: none;
-    margin-bottom: 20px;
-    margin-right: 400px; */
-
-}
-.boton{
-    /* display: flex; */
-    width:190px;
-    height: 50px;
-    align-content: center;
-    background: var(--main-color-4);
-    border-radius: 30px;
-    text-align: center;
-    justify-content: center;
+.seccion1 a:hover{
     color: var(--main-color-1);
-    font-family: var(--main-font-4);
-    font-size: 1.4vw;
-    border-style: none;
-    font-weight: bold;
-    align-items: center;
-    margin-left: 230px;
-    
-
-   
-
-
+    background-color: var(--main-color-4);
+    border: 1px solid var(--main-color-5);
 }
-.instru img{
-    border: solid;
-    width: 100%;
-    height: 100vh;
+.seccion1 .barra ul li{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+}
+
+.seccion1 .barra ul li:hover{
+    background-color: var(--main-color-4);
+}
+
+.seccion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+}
+
+.seccion2 .welcome{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* z-index: -2; */
+    text-align: center;
 
 }
+
+.seccion2 .welcome div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    
+}
+
+.seccion2 .welcome h2{
+    font-family: var(--main-font-3); 
+    font-size: 2.5vw;
+    padding: 0px 50px;
+}
+
+.seccion2 .welcome p{
+    font-family: var(--main-font-4); 
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 0px 50px;
+}
+
+.seccion2 button{
+    width: 160px;
+    background-color: var(--main-color-4);
+    color: var(--main-color-1);
+    padding: 10px 0px;
+    border-radius:25px ;
+    font-family: var(--main-font-4);
+    font-size: 1.2vw;
+    border-style: none;
+    border:1px solid var(--main-color-4);
+}
+.seccion2 button:active{
+    background-color: var(--main-color-1);
+    color: var(--main-color-4);
+    font-weight: bold;
+    border:1px solid var(--main-color-4);
+    margin: 0px;
+}
+.instru{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instru img{
+    width: 80%;
+}
+
+
+
