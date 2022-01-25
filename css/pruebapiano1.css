@@ -1,21 +1,46 @@
+:root{
+    --main-font-2: "Text Me One"
+}
 html{
     height: 100%;
 }
 *{
-    border-style: solid;
+    /* border-style: solid; */
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
-    background-color: #b30e79;
+    background-color: #201F22;
     height: 100%;
 }
 
+
+.title h2{
+      font-family: var(--main-font-2); 
+   color:white;
+   font-size: 1.5em;
+   text-align: center;
+   margin-top: 140px;
+  
+}
+
+.title p{
+    font-family: var(--main-font-2);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.99em;
+    font-size: 1.3em;
+     
+    
+}
 .contenedor {
     display: flex;
-    background-color: green;
-    height: 100%;
+    background-color: #201F22;
+    height: 90%;
     align-items: center;
     justify-content: center;
+
 }
 
 #piano{
@@ -29,6 +54,7 @@ body{
     width: 60px;
     border: 1.5px solid black;
     border-radius: 0 0 5px 5px;
+    
 }
 
 .black{
