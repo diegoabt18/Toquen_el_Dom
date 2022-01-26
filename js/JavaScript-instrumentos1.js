@@ -6,44 +6,45 @@ function myfuncion(){
      console.log("que hay aqui"+ t);
 }
 
-const c4= new Audio("sonidos/tesabob2001__c4-middle-c.mp3");
-const c4s= new Audio("sonidos/tesabob2001__c-4.mp3");
-const d4= new Audio("sonidos/tesabob2001__d4.mp3");
-const d4s= new Audio("sonidos/tesabob2001__d-4.mp3");
-const e4= new Audio("sonidos/tesabob2001__e4.mp3");
-const f4= new Audio("sonidos/tesabob2001__f4.mp3");
-const f4s= new Audio("sonidos/tesabob2001__f-4.mp3");
-const g4= new Audio("sonidos/tesabob2001__g4.mp3");
-const g4s= new Audio("sonidos/tesabob2001__g-4.mp3");
-const a4= new Audio("sonidos/tesabob2001__a4.mp3");
-const a4s= new Audio("sonidos/tesabob2001__a-4.mp3");
-const b4= new Audio("sonidos/tesabob2001__b4.mp3");
+const c3= new Audio("sonidos2/40.mp3");
+const c3s= new Audio("sonidos2/41.mp3");
+const d3= new Audio("sonidos2/42.mp3");
+const d3s= new Audio("sonidos2/43.mp3");
+const e3= new Audio("sonidos2/44.mp3");
+const f3= new Audio("sonidos2/45.mp3");
+const f3s= new Audio("sonidos2/46.mp3");
+const g3= new Audio("sonidos2/47.mp3");
+const g3s= new Audio("sonidos2/48.mp3");
+const a3= new Audio("sonidos2/49.mp3");
+const a3s= new Audio("sonidos2/50.mp3");
+const b3= new Audio("sonidos2/51.mp3");
 
-const c5= new Audio("sonidos/tesabob2001__c5.mp3");
-const c5s= new Audio("sonidos/tesabob2001__c-5.mp3");
-const d5= new Audio("sonidos/tesabob2001__d5.mp3");
-const d5s= new Audio("ssonidos/tesabob2001__d-5.mp3");
-const e5= new Audio("sonidos/tesabob2001__e5.mp3");
-const f5= new Audio("sonidos/tesabob2001__f5.mp3");
-const f5s= new Audio("sonidos/tesabob2001__f-5.mp3");
-const g5= new Audio("sonidos/tesabob2001__g5.mp3");
-const g5s= new Audio("sonidos/tesabob2001__g-5.mp3");
-const a5= new Audio("sonidos/tesabob2001__a5.mp3");
-const a5s= new Audio("sonidos/tesabob2001__a-5.mp3");
-const b5= new Audio("sonidos/tesabob2001__b5.mp3");
+const c4= new Audio("sonidos2/52.mp3");
+const c4s= new Audio("sonidos2/53.mp3");
+const d4= new Audio("sonidos2/54.mp3");
+const d4s= new Audio("sonidos2/55.mp3");
+const e4= new Audio("sonidos2/56.mp3");
+const f4= new Audio("sonidos2/57.mp3");
+const f4s= new Audio("sonidos2/58.mp3");
+const g4= new Audio("sonidos2/59.mp3");
+const g4s= new Audio("sonidos2/60.mp3");
+const a4= new Audio("sonidos2/61.mp3");
+const a4s= new Audio("sonidos2/62.mp3");
+const b4= new Audio("sonidos2/63.mp3");
 
-const c3= new Audio("sonidos/tesabob2001__c3.mp3");
-const c3s= new Audio("sonidos/tesabob2001__c-3.mp3");
-const d3= new Audio("sonidos/tesabob2001__d3.mp3");
-const d3s= new Audio("sonidos/tesabob2001__d-3.mp3");
-const e3= new Audio("sonidos/tesabob2001__e3.mp3");
-const f3= new Audio("sonidos/tesabob2001__f3.mp3");
-const f3s= new Audio("sonidos/tesabob2001__f-3.mp3");
-const g3= new Audio("sonidos/tesabob2001__g3.mp3");
-const g3s= new Audio("sonidos/tesabob2001__g-3.mp3");
-const a3= new Audio("sonidos/tesabob2001__a3.mp3");
-const a3s= new Audio("sonidos/tesabob2001__a-3.mp3");
-const b3= new Audio("sonidos/tesabob2001__b3.mp3");
+const c5= new Audio("sonidos2/64.mp3");
+const c5s= new Audio("sonidos2/65.mp3");
+const d5= new Audio("sonidos2/66.mp3");
+const d5s= new Audio("sonidos2/67.mp3");
+const e5= new Audio("sonidos2/68.mp3");
+const f5= new Audio("sonidos2/69.mp3");
+const f5s= new Audio("sonidos2/70.mp3");
+const g5= new Audio("sonidos2/71.mp3");
+const g5s= new Audio("sonidos2/72.mp3");
+const a5= new Audio("sonidos2/73.mp3");
+const a5s= new Audio("sonidos2/74.mp3");
+const b5= new Audio("sonidos2/75.mp3");
+
 
 const reproducirNota = audio => {
     const clone = audio.cloneNode();
