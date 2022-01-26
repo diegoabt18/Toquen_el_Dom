@@ -18,3 +18,17 @@ preview:
 
 DEMO
 Si quieres ver el resultado final de este proyecto puedes ingresar aquí; https://diegoabt18.github.io/Toquen_el_Dom/
+
+CRÉDITOS:
+<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por freepik - www.freepik.es</a>
+<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por freepik - www.freepik.es</a>
+<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por starline - www.freepik.es</a>
+<a href="https://es.vecteezy.com/vectores-gratis/web">Web Vectores por Vecteezy</a>
+<a href="https://es.vecteezy.com/vectores-gratis/iconos">Iconos Vectores por Vecteezy</a>
+<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por vectorpocket - www.freepik.es</a>
+<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por freepik - www.freepik.es</a>
+<a href="https://www.flaticon.com/free-icons/marimba" title="marimba icons">Marimba icons created by Freepik - Flaticon</a>
+<a href='https://www.freepik.es/vectores/musica'>Vector de Música creado por gstudioimagen - www.freepik.es</a>
+<a href="https://www.flaticon.com/free-icons/drum" title="drum icons">Drum icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/piano" title="piano icons">Piano icons created by Freepik - Flaticon</a>
+<a href='https://www.freepik.es/fotos/musica'>Foto de Música creado por wavebreakmedia_micro - www.freepik.es</a>
