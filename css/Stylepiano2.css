@@ -15,6 +15,7 @@
    /* border: solid;*/
     box-sizing: border-box;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 .inicio_instrumento{
     display: flex;
@@ -30,6 +31,7 @@
     background-color: var(--main-color-5);
     height: 80%;
     width: 80%;
+    
 }
 
 .subloque{
@@ -95,7 +97,7 @@
 .seccion2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #fff;
+    background-color: var(--main-color-1);
 }
 
 .seccion2 .welcome{
@@ -118,7 +120,7 @@
 .seccion2 .welcome h2{
     font-family: var(--main-font-3); 
     font-size: 2.5vw;
-    padding: 0px 50px;
+    padding: 0px 40px;
 }
 
 .seccion2 .welcome p{
@@ -154,7 +156,54 @@
 
 .instru img{
     width: 80%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.seccion2 button a{
+    text-decoration: none;
+    color: var(--main-color-1);
 }
 
 
 
+@media (min-width: 831px){
+    
+}
+
+@media (max-width: 830px){
+    .seccion2{
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 640px) {
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome p{
+        font-size: 90%;
+    }
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome h2{
+        font-size: 90%;
+    }
+    .tocar{
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 361px) {
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome p{
+        font-size: 80%;
+    }
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome h2{
+        font-size: 100%;
+    }
+    .instru img{
+        width: 50%;
+    }
+    .tocar{
+        font-size: 250%;
+    }
+}
