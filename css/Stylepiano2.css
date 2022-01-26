@@ -1,0 +1,209 @@
+/* comentario jocelyn */
+:root {
+    --main-color-1: #F7F6F4;
+    --main-color-2: #6B7464;
+    --main-color-3: #D79B31;
+    --main-color-4: #9F4248;
+    --main-color-5: #201F22;
+    --main-font-1: "Rum Raisin";
+    --main-font-2: "Text Me One";
+    --main-font-3: "Sansita";
+    --main-font-4: "Mulish";
+    }
+
+*{
+   /* border: solid;*/
+    box-sizing: border-box;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+.inicio_instrumento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--main-color-1);
+}
+.bloque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color-5);
+    height: 80%;
+    width: 80%;
+    
+}
+
+.subloque{
+    align-items: center;
+    background-color: var(--main-color-1);
+    height: 91%;
+}
+
+
+
+.seccion1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--main-color-1);
+}
+
+.seccion1 div spam{
+    position: relative;
+    font-family:var(--main-font-1);
+    color: var(--main-color-1);
+    font-size: 23px;
+    background-color: var(--main-color-2);
+    left: 20%;
+    top: -5px;
+    padding: 6px 20px;
+}
+
+.seccion1 .barra ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.seccion1 a{
+    display: flex;
+    text-decoration: none;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-font-2);
+    color: var(--main-color-5);
+    font-size: 1.2rem;
+}
+
+.seccion1 a:hover{
+    color: var(--main-color-1);
+    background-color: var(--main-color-4);
+    border: 1px solid var(--main-color-5);
+}
+.seccion1 .barra ul li{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+}
+
+.seccion1 .barra ul li:hover{
+    background-color: var(--main-color-4);
+}
+
+.seccion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--main-color-1);
+}
+
+.seccion2 .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.seccion2 .welcome div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    
+}
+
+.seccion2 .welcome h2{
+    font-family: var(--main-font-3); 
+    font-size: 2.5vw;
+    padding: 0px 40px;
+}
+
+.seccion2 .welcome p{
+    font-family: var(--main-font-4); 
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 0px 50px;
+}
+
+.seccion2 button{
+    width: 160px;
+    background-color: var(--main-color-4);
+    color: var(--main-color-1);
+    padding: 10px 0px;
+    border-radius:25px ;
+    font-family: var(--main-font-4);
+    font-size: 1.2vw;
+    border-style: none;
+    border:1px solid var(--main-color-4);
+}
+.seccion2 button:active{
+    background-color: var(--main-color-1);
+    color: var(--main-color-4);
+    font-weight: bold;
+    border:1px solid var(--main-color-4);
+    margin: 0px;
+}
+.instru{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instru img{
+    width: 80%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.seccion2 button a{
+    text-decoration: none;
+    color: var(--main-color-1);
+}
+
+
+
+@media (min-width: 831px){
+    
+}
+
+@media (max-width: 830px){
+    .seccion2{
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 640px) {
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome p{
+        font-size: 90%;
+    }
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome h2{
+        font-size: 90%;
+    }
+    .tocar{
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 361px) {
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome p{
+        font-size: 80%;
+    }
+    .inicio_instrumento .bloque .subloque .seccion2 .welcome h2{
+        font-size: 100%;
+    }
+    .instru img{
+        width: 50%;
+    }
+    .tocar{
+        font-size: 250%;
+    }
+}

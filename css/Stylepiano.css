@@ -1,0 +1,214 @@
+:root{
+    --main-font-2: "Text Me One"
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+.title h2{
+    font-family: var(--main-font-2); 
+    color:white;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.title p{
+    font-family: var(--main-font-2);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.99em;
+    font-size: 1.3em;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #201F22;
+    align-items: center;
+    justify-content: center;
+}
+
+#piano{
+    display: flex;
+    /*position: relative;*/
+}
+
+.white{
+    background-color: white;
+    height: 120px;
+    width: 60px;
+    border: 1.5px solid black;
+    border-radius: 0 0 5px 5px;
+    
+}
+
+.black{
+    background-color: black;
+    height: 80px;
+    width: 20px;
+    border: 1.5px solid black;
+    margin:0 0 0 -2.5em;
+    transform: translate(50%,0px);
+    border-radius: 0 0 5px 5px;
+}
+
+.active{
+    background-color: blanchedalmond;
+}
+
+.instrumentopiano{
+    background-color: #201F22;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color-3);
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    align-items: center;
+    padding: 0px 75px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .Header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Header div spam {
+    font-family: var(--main-font-1);
+    font-size: 35px;
+  }
+  
+  .Header div img{
+    width: auto;
+    height: 50px;
+    
+    /*Fondo transparente*/
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  
+  .Header .Navbar ul{
+    display: flex;
+    height: 70px;
+  }
+  
+  .Header .Navbar ul li{
+    display: flex;
+    list-style: none; /* Quitar el stilo a las listas*/
+    
+  
+  }
+  
+  .Header .Navbar ul li {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .Header .Navbar ul li:hover{
+    background-color: var(--main-color-2);
+  }
+  
+  .Header .Navbar ul li a{
+      font-family: var(--main-font-2);
+      color: var(--main-color-1);
+      text-decoration: none;
+      font-size: 21px;
+      width: 100px;
+  }
+
+  .Navbar2 a{
+    font-family: var(--main-font-2);
+    color: var(--main-color-1);
+    font-size: 21px;
+    text-decoration: none;
+  }
+  
+  .Navbar2 ul li >a{
+    height: 100%;
+  }
+  
+  .Navbar2 > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .Navbar2 ul >li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .Navbar2 li ul{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+    background-color: var(--main-color-3);
+  }
+  
+  .Navbar2 ul:hover ul{
+    display: flex;
+    
+  }
+  
+  
+  @media (min-width: 831px){
+    .Header .Navbar2{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 830px){
+    .Header .Navbar{
+      display: none;
+    }
+
+    .seccion2{
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Header {
+      background-color: red;
+    }
+  }
+  @media (max-width: 640px) {
+    .Header {
+      background-color: lightblue;
+      padding: 0px 10px;
+    }
+  }
+
+  @media (max-width: 361px) {
+    .Header {
+      background-color: rosybrown;
+      padding: 0px 10px;
+      gap:10px
+    }
+    
+  }
