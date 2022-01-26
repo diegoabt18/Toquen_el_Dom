@@ -58,7 +58,9 @@
 }
 
 .active{
-    background-color: blanchedalmond;
+      background: linear-gradient(#DBB374, #6B7464);
+      
+  
 }
 
 .instrumentopiano{
