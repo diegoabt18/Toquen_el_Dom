@@ -1,10 +1,4 @@
-function myfuncion(){
-    /*alert("si funciona");*/
-    const cp4= new Audio("sonidos/lomographicmusic__piano-07-c4.wav");
-    cp4.play();
-    const t=document.querySelector(".c4");
-     console.log("que hay aqui"+ t);
-}
+
 
 const c3= new Audio("sonidos2/40.mp3");
 const c3s= new Audio("sonidos2/41.mp3");
@@ -116,3 +110,82 @@ window.addEventListener("keydown", ({ keyCode }) => {
     tocarTecla(id, nota);
     }
 });
+
+
+/*   JAVASCRIPT PIANO   */
+
+function myfuncion(){
+    let seccion2=document.getElementById("s2");
+    let seccion3=document.getElementById("s3");
+    let seccion4=document.getElementById("s4");
+    let seccion5=document.getElementById("s5");
+
+    seccion2.className="seccion2";
+    seccion3.className="inhabilitado";
+    seccion4.className="seccion2 inhabilitado";
+    seccion5.className="seccion2 inhabilitado";
+}
+function myfuncion2(){
+    let seccion2=document.getElementById("s2");
+    let seccion3=document.getElementById("s3");
+    let seccion4=document.getElementById("s4");
+    let seccion5=document.getElementById("s5");
+
+    seccion2.className="seccion2 inhabilitado";
+    seccion3.className=" ";
+    seccion4.className="seccion2 inhabilitado";
+    seccion5.className="seccion2 inhabilitado";
+}
+
+function myfuncion3(){
+    let seccion2=document.getElementById("s2");
+    let seccion3=document.getElementById("s3");
+    let seccion4=document.getElementById("s4");
+    let seccion5=document.getElementById("s5");
+
+    seccion2.className="seccion2 inhabilitado";
+    seccion3.className="inhabilitado";
+    seccion4.className="seccion2";
+    seccion5.className="seccion2 inhabilitado";
+}
+
+function myfuncion4(){
+    let seccion2=document.getElementById("s2");
+    let seccion3=document.getElementById("s3");
+    let seccion4=document.getElementById("s4");
+    let seccion5=document.getElementById("s5");
+
+    seccion2.className="seccion2 inhabilitado";
+    seccion3.className="inhabilitado";
+    seccion4.className="seccion2 inhabilitado";
+    seccion5.className="seccion2";
+}
+
+
+function cambiarpista(e){
+    comprobar(e.target.id);
+}
+
+function comprobar(boton){
+    let video1=document.getElementById("v2");
+    let video2=document.getElementById("v3");
+    let video3=document.getElementById("v4");
+    console.log(boton.id);
+    switch (boton) {
+        case "b1":
+            video1.className="video"
+            video2.className="video inhabilitado"
+            video3.className="video inhabilitado"
+            break;
+        case "b2":
+            video1.className="video inhabilitado"
+            video2.className="video"
+            video3.className="video inhabilitado"
+            break;
+        case "b3":
+            video1.className="video inhabilitado"
+            video2.className="video inhabilitado"
+            video3.className="video"
+        break;
+    }
+}

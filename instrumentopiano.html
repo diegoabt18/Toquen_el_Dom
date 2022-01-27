@@ -31,7 +31,7 @@
         </nav>
         <nav class="Navbar2">
             <ul>
-                <li><a href="javascript:void(0)" onclick="OpenMenu()">Menu</a>
+                <li><a href="javascript:void(0)">Menu</a>
                     <ul class="close" id="MyOpenMenu">
                         <li><a href="./index.html">Inicio</a></li>
                         <li><a href="./instrumentopiano.html">Piano</a></li>
@@ -52,13 +52,15 @@
                     </div>
                     <nav class="barra">
                         <ul>
-                            <li><a href="">Inicio</a></li>
-                            <li><a href="">Clases</a></li>
-                            <li><a href="">Tutorial</a></li>
+                            <li><a href="javascript:void(0)" onclick="myfuncion()">Inicio</a></li>
+                            <li><a href="javascript:void(0)" onclick="myfuncion2()">Instrucciones</a></li>
+                            <li><a href="javascript:void(0)" onclick="myfuncion3()">Conoce más</a></li>
+                            <li><a href="javascript:void(0)" onclick="myfuncion4()">Tutorial</a></li>
+
                         </ul>
                     </nav>
                 </div>
-                <div class="seccion2">
+                <div id="s2" class="seccion2">
                     <div class="welcome">
                         <div>
                             <h2> Bienvenido Al Simulador De Piano Virtual </h2>
@@ -72,6 +74,51 @@
                     </div>
                     <div class="instru">
                         <img src="./img/tocando_piano.jpg" alt="">
+                    </div>
+                </div>
+                <div id="s3" class="seccion2 inhabilitado">
+                    <img width="100%" src="./img/instructivo.png" alt="">
+                </div>
+                <div id="s4" class="seccion2 inhabilitado">
+                    <div id="v1" class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jaDOE_cYxSQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="clasespiano">
+                        <h2> !Aprende Ahora¡ </h2>
+                        <p> Ve nuestros videos tutoriales de como utilizar el piano para que practiques y aprendas
+                            las notas musicales.
+                        </p>
+                    </div>
+                </div>
+                <div id="s5" class="seccion2 inhabilitado">
+                    <div id="v2" class="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1S37xiwVCEI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div id="v3" class="video inhabilitado">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cEdsGFPWPC8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div id="v4" class="video inhabilitado">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iWbKrq-oEJo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="clasespiano">
+                        <h2> !Toca una pieza musical¡ </h2>
+                        <p> Ve nuestros videos, practica y crea tus propias canciones
+                        </p>
+                        <button id="b1" onclick="cambiarpista(event)">For elise - Beethoven</button>
+                        <button id="b2" onclick="cambiarpista(event)">The scientist -Colplay</button>
+                        <button id="b3"onclick="cambiarpista(event)">Faded - Alan Walker</button>
                     </div>
                 </div>
             </div>
@@ -130,10 +177,9 @@
                 <button class="black a5s"></button>
                 <button class="white b5"></button>
             </div>
-
         </div>
     </section>
-    <audio src='./sonidos/lomographicmusic__piano-01-g3.wav'></audio>
+    <audio src=""></audio>
     <script src="./js/JavaScript-instrumentos1.js"></script>
 </body>
 

@@ -368,13 +368,13 @@
 
 @media (max-width: 768px) {
   .Header {
-    background-color: red;
+   
   }
   
 }
 @media (max-width: 640px) {
   .Header {
-    background-color: lightblue;
+    
     padding: 0px 10px;
   }
   .inicio{
@@ -391,7 +391,7 @@
 
 @media (max-width: 361px) {
   .Header {
-    background-color: rosybrown;
+   
     padding: 0px 10px;
   }
   .inicio{
