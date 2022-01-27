@@ -196,7 +196,7 @@
 }
 
 .video {
- height: 50vh;
+
 }
 
 .activado{
@@ -266,6 +266,10 @@
     .seccion2 button{
         width: 10rem;
         font-size: 0.5rem;
+    }
+
+    .tituloc{
+       /* display: none;*/
     }
 
 }
