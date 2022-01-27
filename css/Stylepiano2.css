@@ -62,14 +62,17 @@
 
 .seccion1 .barra ul{
     display: flex;
+    flex-direction: row;
     list-style: none;
     padding: 0px;
 }
 
+
+
 .seccion1 a{
     display: flex;
     text-decoration: none;
-    width: 100px;
+    width: 120px;
     justify-content: center;
     align-items: center;
     font-family: var(--main-font-2);
@@ -85,7 +88,7 @@
 .seccion1 .barra ul li{
     display: flex;
     justify-content: center;
-    width: 100px;
+    width: 120px;
     height: 35px;
 }
 
@@ -97,6 +100,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--main-color-1);
+
 }
 
 .seccion2 .welcome{
@@ -130,13 +134,13 @@
 }
 
 .seccion2 button{
-    width: 160px;
+    width: 15rem;
     background-color: var(--main-color-4);
     color: var(--main-color-1);
     padding: 10px 0px;
     border-radius:25px ;
     font-family: var(--main-font-4);
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     border-style: none;
     border:1px solid var(--main-color-4);
 }
@@ -164,6 +168,45 @@
     color: var(--main-color-1);
 }
 
+.inhabilitado{
+    display: none;
+}
+
+.clasespiano{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clasespiano h2{
+    font-family: var(--main-font-3); 
+    font-size: 2.5rem;
+    padding: 0px 40px;
+}
+
+.clasespiano p{
+    font-family: var(--main-font-4); 
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.video {
+ height: 50vh;
+}
+
+.activado{
+  
+    background-color: var(--main-color-4);
+    border: 1px solid var(--main-color-5);
+}
+
+.activado a{
+    color: var(--main-color-1);
+}
 
 
 @media (min-width: 831px){
@@ -190,6 +233,14 @@
     .tocar{
         font-size: 250%;
     }
+
+    
+    .clasespiano h2{
+        font-size: 100%;
+    }
+    .clasespiano p{
+        font-size: 100%;
+    }
 }
 
 @media (max-width: 361px) {
@@ -205,4 +256,15 @@
     .tocar{
         font-size: 250%;
     }
+    .clasespiano h2{
+        font-size: 100%;
+    }
+    .clasespiano p{
+        font-size: 100%;
+    }
+    .seccion2 button{
+        width: 10rem;
+        font-size: 0.5rem;
+    }
+
 }

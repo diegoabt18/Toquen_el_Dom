@@ -195,9 +195,7 @@
   }
   
   @media (max-width: 768px) {
-    .Header {
-      
-    }
+    
   }
   @media (max-width: 640px) {
     .Header {
@@ -210,5 +208,10 @@
       padding: 0px 10px;
       gap:10px
     }
-    
+    .instrumentopiano .title h2{
+      font-size: 100%;
+    }
+    .instrumentopiano .title p{
+      font-size: 100%;
+    }
   }
