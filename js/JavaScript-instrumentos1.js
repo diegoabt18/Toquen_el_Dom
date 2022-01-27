@@ -113,12 +113,19 @@ window.addEventListener("keydown", ({ keyCode }) => {
 
 
 /*   JAVASCRIPT PIANO   */
+let l1=document.getElementById("lista1");
+let l2=document.getElementById("lista2");
+let l3=document.getElementById("lista3");
+let l4=document.getElementById("lista4");
 
 function myfuncion(){
+    myfuncion5();
+    l1.className="item activado";
     let seccion2=document.getElementById("s2");
     let seccion3=document.getElementById("s3");
     let seccion4=document.getElementById("s4");
     let seccion5=document.getElementById("s5");
+    
 
     seccion2.className="seccion2";
     seccion3.className="inhabilitado";
@@ -126,6 +133,8 @@ function myfuncion(){
     seccion5.className="seccion2 inhabilitado";
 }
 function myfuncion2(){
+    myfuncion5();
+    l2.className="item activado";
     let seccion2=document.getElementById("s2");
     let seccion3=document.getElementById("s3");
     let seccion4=document.getElementById("s4");
@@ -138,6 +147,8 @@ function myfuncion2(){
 }
 
 function myfuncion3(){
+    myfuncion5();
+    l3.className="item activado";
     let seccion2=document.getElementById("s2");
     let seccion3=document.getElementById("s3");
     let seccion4=document.getElementById("s4");
@@ -150,6 +161,8 @@ function myfuncion3(){
 }
 
 function myfuncion4(){
+    myfuncion5();
+    l4.className="item activado";
     let seccion2=document.getElementById("s2");
     let seccion3=document.getElementById("s3");
     let seccion4=document.getElementById("s4");
@@ -161,6 +174,13 @@ function myfuncion4(){
     seccion5.className="seccion2";
 }
 
+function myfuncion5(){
+    l1.className="item";
+    l2.className="item";
+    l3.className="item";
+    l4.className="item";
+}
+
 
 function cambiarpista(e){
     comprobar(e.target.id);
@@ -170,12 +190,14 @@ function comprobar(boton){
     let video1=document.getElementById("v2");
     let video2=document.getElementById("v3");
     let video3=document.getElementById("v4");
+ 
     console.log(boton.id);
     switch (boton) {
         case "b1":
             video1.className="video"
             video2.className="video inhabilitado"
             video3.className="video inhabilitado"
+            l1.className="item activado"
             break;
         case "b2":
             video1.className="video inhabilitado"
@@ -189,3 +211,8 @@ function comprobar(boton){
         break;
     }
 }
+
+
+
+
+
